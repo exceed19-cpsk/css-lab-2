@@ -60,3 +60,47 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.nav {
+    background-color: #820909;
+    color: white;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    margin: auto;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.menu-item {
+    width: calc(45% - 2rem);
+}
+
+.two-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* .two-cols>* {
+    border: 1px solid green;
+} */
+
+.map-image {
+    width: 50%;
+    margin: auto;
+}
